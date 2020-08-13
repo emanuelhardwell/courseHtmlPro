@@ -1,0 +1,58 @@
+body {
+  color: white;
+  background-image: radial-gradient(circle, rgb(63, 59, 59), rgb(24, 22, 22));
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 120px;
+  grid-template-rows: 50px 1fr 50px;
+}
+
+.header,
+.footer,
+.aside {
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  background-color: rgb(96, 109, 230);
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+}
+
+.aside {
+  background-color: rgb(63, 172, 63);
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.footer {
+  background-color: rgb(206, 32, 32);
+  grid-column: 1 / 3;
+  grid-row: 3 / 4;
+}
+
+.container {
+  padding: 0.5em;
+}
+
+.titulo {
+  background-color: rgb(21, 86, 107);
+  text-align: center;
+}
+
+.subtitulo {
+  background-color: rgb(57, 137, 163);
+  text-align: center;
+}
+
+.tema {
+  text-align: center;
+}
+.section {
+  background-color: rgb(101, 102, 184);
+}
