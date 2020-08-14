@@ -1,0 +1,27 @@
+/*  */
+/*  */
+
+.tabla {
+  border: 1px solid black;
+}
+
+td,
+th,
+caption {
+  border: 1px solid black;
+}
+
+/* colspan y rowspan */
+
+.colspan-receso {
+  background-color: lightcoral;
+}
+
+.rowspan-libre {
+  background-color: lightsalmon;
+}
+
+/* COLGROUP ----> COL */
+.viernes{
+    background-color: lightgreen;
+}

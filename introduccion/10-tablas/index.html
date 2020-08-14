@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tablas</title>
+  </head>
+  <body>
+    <h1>tablas</h1>
+    <table class="tabla">
+      <caption>
+        Titulo de la tablas
+      </caption>
+      <!-- thead -->
+      <thead>
+        <th>Hora</th>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miercoles</th>
+        <th>Jueves</th>
+        <th>Viernes</th>
+      </thead>
+      <!-- tbody -->
+      <tbody>
+        <tr>
+          <td>7:00 am</td>
+          <td>html</td>
+          <td>css</td>
+          <td>js</td>
+          <td>react</td>
+          <td>angular</td>
+        </tr>
+        <tr>
+          <td>8:00 am</td>
+          <td>html</td>
+          <td>css</td>
+          <td>js</td>
+          <td>react</td>
+          <td>angular</td>
+        </tr>
+        <tr>
+          <td>9:00 am</td>
+          <td>html</td>
+          <td>css</td>
+          <td>js</td>
+          <td>react</td>
+          <td>angular</td>
+        </tr>
+        <tr>
+          <td>10:00 am</td>
+          <td class="colspan-receso" colspan="4">Receso</td>
+          <td>angular</td>
+        </tr>
+        <tr>
+          <td>11:00 am</td>
+          <td>html</td>
+          <td>css</td>
+          <td>js</td>
+          <td>react</td>
+          <td>angular</td>
+        </tr>
+        <tr>
+          <td class="rowspan-libre" rowspan="2">libre</td>
+          <td>html</td>
+          <td>css</td>
+          <td>js</td>
+          <td>react</td>
+          <td>angular</td>
+        </tr>
+        <tr>
+          <!-- <td>13:00 am</td> -->
+          <td>html</td>
+          <td>css</td>
+          <td>js</td>
+          <td>react</td>
+          <td>angular</td>
+        </tr>
+      </tbody>
+      <!-- colgroup -->
+      <colgroup>
+        <col span="5" />
+        <col class="viernes" />
+      </colgroup>
+    </table>
+  </body>
+</html>
