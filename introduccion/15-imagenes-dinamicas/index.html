@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Imagenes dinamicas</title>
+  </head>
+  <body>
+    <h3>Imagenes dinamicas con 1X 0 2X</h3>
+    <img
+      class="imagen"
+      src=""
+      srcset="cubo-escritorio.png 1x, cubo-movil.png 2x"
+      alt="imagen de cubo rubick by hardwell"
+    />
+    <!-- 1X hace referencia ---CSS pixel-ratio:---  para escritorio-->
+    <!-- 2X hace referencia ---CSS pixel-ratio:--- para movil -->
+    <h3>Imagenes dinamicas con tamaño en With (W) 700W 0 500W</h3>
+    <img
+      class="imagen"
+      src=""
+      srcset="cubo-escritorio.png 700w, cubo-movil.png 500w"
+      alt="imagen de cubo rubick by hardwell"
+    />
+  </body>
+</html>
