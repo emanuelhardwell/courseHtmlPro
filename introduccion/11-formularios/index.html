@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">Navbar</nav>
+    </header>
+    <!-- container -------------------------------------------------- -->
+    <div class="container">
+      <div class="contenedor1">
+        <form action="#">
+          <legend>Datos personales</legend>
+          <label class="block" for="nombre"> Nombre:</label>
+          <input class="block" type="text" id="nombre" />
+          <label class="block" for="password"> Password:</label>
+          <input class="block" type="password" id="password" />
+          <label class="block" for="email"> Email:</label>
+          <input class="block" type="email" id="email" />
+          <label class="block" for="edad">Edad:</label>
+          <input class="block" type="number" id="edad" />
+        </form>
+      </div>
+      <!-- contenedor2 ---------------------------->
+      <div class="contenedor2">
+        <!-- fielset -->
+        <fieldset>
+          <legend>Sexo</legend>
+          <label for="hombre"> Hombre</label>
+          <input type="radio" name="sexo" id="hombre" />
+          <label for="mujer"> Mujer</label>
+          <input type="radio" name="sexo" id="mujer" />
+        </fieldset>
+        <!-- fielset -->
+        <fieldset>
+          <legend>Cursos</legend>
+          <label for="html"> Html</label>
+          <input type="checkbox" id="html" />
+          <label for="java"> Java</label>
+          <input type="checkbox" id="java" />
+          <label for="python"> Python</label>
+          <input type="checkbox" id="python" />
+        </fieldset>
+        <!-- fielset -->
+        <fieldset>
+          <legend>Elige background</legend>
+          <label for="color"> Color:</label>
+          <input type="color" id="color" />
+        </fieldset>
+      </div>
+      <!-- contenedor3 ---------------------------->
+      <div class="contenedor3">
+        <!-- fielset -->
+        <fieldset>
+          <legend>Fecha</legend>
+          <label class="block" for="fecha-completa"> Fecha:</label>
+          <input class="block" type="date" id="fecha-completa" />
+          <label class="block" for="datetime"> Datetime:</label>
+          <input class="block" type="datetime" id="datetime" />
+          <label class="block" for="mes"> Mes:</label>
+          <input class="block" type="month" id="mes" />
+          <label class="block" for="semana"> Semana:</label>
+          <input class="block" type="week" id="semana" />
+        </fieldset>
+      </div>
+      <!-- contenedor4 ---------------------------->
+      <div class="contenedor4">
+        <!-- fielset -->
+        <fieldset>
+          <legend>Subir archivo</legend>
+          <label for="archivo"></label>
+          <input type="file" id="archivo" />
+        </fieldset>
+        <!-- fielset -->
+        <fieldset>
+          <legend>Rango</legend>
+          <label for="rango"> Desplaze el slider:</label>
+          <input type="range" id="rango" />
+        </fieldset>
+        <!-- fielset -->
+        <fieldset>
+          <legend>Buscar numero</legend>
+          <label class="block" for="buscar"> Buscar:</label>
+          <input class="block" type="search" id="buscar" />
+          <label class="block" for="telefono"> Telefono:</label>
+          <input class="block" type="tel" id="telefono" />
+        </fieldset>
+      </div>
+      <!-- contenedor5 ---------------------------->
+      <div class="contenedor5">
+        <!-- fielset -->
+        <fieldset>
+          <legend>Url</legend>
+          <label class="block" for="url"> Url:</label>
+          <input class="block" type="url" id="url" />
+        </fieldset>
+        <!-- botones -->
+        <br />
+        <input class="block" type="submit" value="Enviar" />
+        <br />
+        <button class="block" type="reset">Resetear</button>
+      </div>
+      <!-- contenedor6 ---------------------------->
+      <div class="contenedor6">
+        <form action="#">
+          <label class="block" for="languages">Lenguajes Informáticos</label>
+          <select class="block" size="7" multiple name="" id="languages">
+            <optgroup label="Lenguajes de marcado">
+              <option value="html">HTML</option>
+              <option value="xml">XML</option>
+            </optgroup>
+            <optgroup label="Lenguajes de diseño">
+              <option value="css">CSS</option>
+            </optgroup>
+            <optgroup label="Lenguajes de programación">
+              <option value="js">JS</option>
+            </optgroup>
+          </select>
+          <br />
+          <label class="block" for="text">Mensaje</label>
+          <textarea
+            class="block textarea"
+            name=""
+            id="text"
+            cols="20"
+            rows="5"
+          ></textarea>
+          <!-- select -->
+          <label for="seleccion"> Seleccione se framework: </label>
+          <select id="seleccion">
+            <optgroup label="Framework php">
+              <option value="laravel"> laravel</option>
+              <option value="codeIgniter"> code igniter</option>
+            </optgroup>
+            <optgroup label="Framework css">
+              <option value="bootstrap"> Bootstrap</option>
+              <option value="bulma"> Bulma</option>
+            </optgroup>
+          </select>
+        </form>
+      </div>
+    </div>
+    <!-- aside ------------------------------------------------------- -->
+    <aside class="aside">Aside</aside>
+    <!-- footer ------------------------------------------------------ -->
+    <footer class="footer">Footer</footer>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+/*  */
+/*  */
+body {
+  background-image: radial-gradient(circle, rgb(37, 35, 35), rgb(56, 52, 52));
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: #eee;
+  margin: 0px;
+  display: grid;
+  grid-template-columns: 1fr 100px;
+  grid-template-rows: 50px 1fr 50px;
+}
+
+.header,
+.aside,
+.footer,
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  background-color: lime;
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+}
+
+.aside {
+  background-color: rgb(38, 0, 255);
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.footer {
+  background-color: rgb(255, 60, 0);
+  grid-column: 1 / -1;
+  grid-row: 3 / 4;
+}
+
+.container {
+  background-color: rgb(27, 29, 27);
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+/* formulario */
+.block {
+  display: block;
+}
+
+.container {
+  padding: 0.5em;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+}
+
+.contenedor1 {
+  background-color: rgb(27, 139, 27);
+}
+
+.contenedor2 {
+  background-color: rgb(221, 76, 39);
+}
+
+.contenedor3 {
+  background-color: rgb(57, 133, 129);
+}
+
+.contenedor4 {
+  background-color: rgb(196, 58, 69);
+}
+
+.contenedor5 {
+  background-color: rgb(125, 103, 177);
+}
+
+.contenedor6 {
+  background-color: rgb(81, 194, 81);
+}
+
+.textarea {
+  resize: none;
+}

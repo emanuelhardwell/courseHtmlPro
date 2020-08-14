@@ -1,0 +1,78 @@
+<!--
+    form - encierra todos los campos del formulario
+    label - representa el nombre del campo
+    input type=
+    text (default) - Entrada de texto
+    password - campo para contraseñas (no encripta, sólo oculta)
+    number - permite introducir únicamente valores numéricos
+    submit - botón para enviar el formulario
+    button - igual que submit
+    image - enviar el formulario usando una imagen personalizada
+    button - este tipo fue sustituido en HTML5 por la etiqueta button que teneís a continuación
+    <button></button> - igual que submit
+    reset - reinicia el formulario vaciando los campos
+    radio - crea un radio button
+    checkbox - crea un checkbox
+    color - permite seleccionar un color de una paleta de colores
+    date - permite seleccionar una fecha de un calendario
+    datetime-local - permite seleccionar fecha y hora
+    month - permite seleccionar un mes de un caledario
+    week - permite seleccionar una semana
+    email - sirve para introducir un email con validación HTML5 (insegura)
+    file - permite subir archivos al servidor
+    range - crea un slide para seleccionar un valor numérico
+    search - crea un campo igual que text pero con semántica de búsqueda
+    tel -  crea un campo para introducir teléfono, en movil sale un teclado diferente
+    time - permite seleccionar una hora
+    url- crea un campo para introduccir una url
+-->
+
+
+
+
+<!--
+    radio - crea un radio button
+    checkbox - crea un checkbox
+    date - permite seleccionar una fecha de un calendario
+    datetime-local - permite seleccionar fecha y hora (obsoleto por la WHATWG)
+    time -  Pemite introducir una hora sin zona horaria específica
+    month - permite seleccionar un mes de un caledario
+    week - permite seleccionar una semana
+    color - permite seleccionar un color de una paleta de colores
+    email - sirve para introducir un email con validación HTML5 (insegura)
+    file - permite subir archivos al servidor
+    range - crea un slide para seleccionar un valor numérico
+    search - crea un campo igual que text pero con semántica de búsqueda
+    tel -  crea un campo para introducir teléfono, en movil sale un teclado diferente
+    url- crea un campo para introduccir una url
+    
+    datalist - crea un filtro en el que poder buscar
+-->
+
+
+<!--
+select: para crear un menu de seleccion
+
+textarea:
+-->
+
+
+
+<!--
+    <fieldset>
+        <legend></legend>
+    </fieldset>
+    Attributes
+        boolean
+            required: Hace que un campo sea obligatiorio
+            disabled: desactiva la interacción con un campo
+            checked: Marca un radio | checkbox por defecto
+            selected: Marca un option por defecto
+            autofocus: Pone el foco automático en un campo
+            readonly: Hace que el campo sea solo de lectura
+        Otros
+            maxlenght/minlenght: determina la cantidad máxima o mínima de caracteres en un campo
+            min/max: determina el mínimo y el máximo en los campos numéricos
+            autocomplete=on|off(formulario): Permite al navegador autocompletar con los datos que tiene almacenados
+            placeholder: Establece un valor de inicio y se borra al introducir información
+-->
